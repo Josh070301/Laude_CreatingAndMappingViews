@@ -24,3 +24,11 @@ def Objectives(request):
     industry in order to adapt to the changing demands of the global market; and <br><br> \
     3. Exhibit leadership and teamwork, and commitment to their respective local or global organizations.</p>'
     return HttpResponse(msg);
+
+def home(request):
+    msg = 'check urls.py <Br>\
+    http://127.0.0.1:8000/Objectives/ <br> \
+    http://127.0.0.1:8000/Mission/ <br>\
+    http://127.0.0.1:8000/Vision/ <Br>\
+    '
+    return HttpResponse(msg);
